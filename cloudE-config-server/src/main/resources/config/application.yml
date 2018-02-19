@@ -8,7 +8,7 @@ spring:
       config:
         server:
           git:
-            uri: https://github.com/vangao1989/cloudE.git
+            uri: https://github.com/mijingling/cloudE.git
             searchPaths: cloudE-config-repo
             lable: master
 
