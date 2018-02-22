@@ -88,7 +88,7 @@ prometheus | 时间序列数据库 | [https://prometheus.io/](https://prometheus
 > 启动顺序
 
 - 优先启动cloudE-eureka-server,cloudE-config-server。其他服务顺序随意
-
+- eureka>>config>>zipkin>>gateway>>hystrix>>turbine>>admin
 
 ### 服务监控
 
